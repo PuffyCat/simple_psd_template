@@ -220,7 +220,7 @@ details[open] summary:before {
 }
 
 .screenshot_block:before {
-    content: url(../img/image.png);
+    content: url(../img/product_screenshot.png);
     height: 150px;
     margin: 0 15px 0 0;
     display: block;
@@ -296,6 +296,6 @@ details[open] summary:before {
     height: 75px;
     position: relative;
     margin: 0 31px 0 0;
-    background-image: url(../img/image.png);
+    background-image: url(../img/user_img.png);
     border-radius: 50px;
 }
