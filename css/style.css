@@ -1,8 +1,6 @@
 body {
     margin: 0 auto;
     font-family: Arial;
-    min-width: 1280px;
-    max-width: 1920px;
 }
 
 .container {
@@ -253,7 +251,7 @@ details[open] summary:before {
 }
 
 .reviews-wrapper_main {
-   width: 100%;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -261,7 +259,7 @@ details[open] summary:before {
 }
 
 .reviws-wrapper {
-   width: 50%;
+    width: 50%;
     display: flex;
     flex-wrap: wrap;
 }
@@ -282,7 +280,6 @@ details[open] summary:before {
     border: 20px solid #ebebeb;
     border-radius: 7px;
     position: relative;
-   
 }
 
 .review-text span {
@@ -310,4 +307,92 @@ details[open] summary:before {
     margin: 0 30px 0 30px;
     background-image: url(../img/user_img.png);
     border-radius: 50px;
+}
+
+
+/* Блок "Price" */
+
+.price {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.price-title {
+    display: block;
+    text-align: center;
+    color: #445161;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    width: 100%;
+    margin: 50px 0 0 0;
+}
+
+.price-wrapper_main {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin: 30px 145px 50px 145px;
+}
+
+.price-item {
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    background-color: #445161;
+    border-radius: 5px;
+}
+
+.price-item_title {
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    display: block;
+    text-align: center;
+    width: 100%;
+    margin: 15px 0 0 0;
+}
+
+.price-item_coast {
+    color: #445162;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 30px;
+    display: block;
+    text-align: center;
+    width: 100%;
+    margin: 15px 0 0 0;
+    padding: 20px 10px 20px 10px;
+    background-color: #ffffff;
+    border: 2px solid #445162;
+}
+
+.price-item_list {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    list-style-position: inside;
+    padding: 0 20px 0 20px;
+}
+
+.price-item_link {
+    text-decoration: none;
+    display: block;
+    width: 260px;
+    height: 40px;
+    background-color: #ffffff;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 18px;
+    text-align: center;
+    color:  #445161;
+    border-radius: 5px;
+    margin: 0 20px 20px 20px;
+    line-height: 40px;
 }
