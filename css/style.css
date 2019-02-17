@@ -406,6 +406,15 @@ details[open] summary:before {
     border-radius: 5px;
     margin: 0 20px 20px 20px;
     line-height: 40px;
+    outline: none;
+}
+.price-item_link:hover {
+    background-color: #989898;
+    color: #ffffff;
+}
+.price-item_link:active {
+    background-color: #ffffff;
+    color: #445162;
 }
 
 
