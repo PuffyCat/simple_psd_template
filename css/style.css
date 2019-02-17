@@ -1,3 +1,14 @@
+@font-face {
+    font-family: "Socialico";
+    src: url('../fonts/Socialico.eot');
+    /* IE 5-8 */
+    src: local(''), /* sneakily trick IE */
+    url('../fonts/Socialico.woff') format('woff'), /* FF 3.6, Chrome 5, IE9 */
+    url('../fonts/Socialico.ttf') format('truetype'), /* Opera, Safari */
+    url('../fonts/Socialico.svg#Socialico') format('svg');
+    /* iOS */
+}
+
 body {
     margin: 0 auto;
     font-family: Arial;
@@ -398,7 +409,7 @@ details[open] summary:before {
 }
 
 
-/* Футер.Блок "Contacts" */
+/* Футер.Блок "Contacts".Форма */
 
 .main-footer {
     display: flex;
@@ -517,8 +528,91 @@ textarea[placeholder]::-moz-placeholder {
     color: #445162;
 }
 
+
+/*Футер.Блок "Contacts".Контакты и соцсети*/
+
 .main-footer_contacts {
-    width: 240px;
-    height: 300px;
-    background-color: white;
+   
+}
+
+.main-footer_contacts ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.contacts-list li {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 0 0 30px 30px;
+    position: relative;
+}
+
+.contacts-list_item-skype:before {
+    content: "";
+    background-image: url(../img/skype_icon_contacts.png);
+    background-size: cover;
+    position: absolute;
+    left: -30px;
+    display: block;
+    width: 24px;
+    height: 26px;
+}
+
+.contacts-list_item-isq:before {
+    content: "";
+    background-image: url(../img/icq_icon_contacts.png);
+    background-size: cover;
+    position: absolute;
+    left: -30px;
+    display: block;
+    width: 26px;
+    height: 26px;
+}
+
+.contacts-list_item-mail:before {
+    content: "";
+    background-image: url(../img/email_icon_contacts.png);
+    background-size: cover;
+    position: absolute;
+    left: -30px;
+    display: block;
+    width: 22px;
+    height: 22px;
+}
+
+.contacts-list_item-phone:before {
+    content: "";
+    background-image: url(../img/phone_icon_contacts.png);
+    background-size: cover;
+    position: absolute;
+    left: -30px;
+    display: block;
+    width: 24px;
+    height: 23px;
+}
+
+.social-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.social-list_item {
+    margin-right: 10px;
+}
+
+.social-list_item a {
+    text-decoration: none;
+    outline: none;
+    display: block;
+    font-family: Socialico;
+    color: #ffffff;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 40px;
+    text-align: center;
+    width: 40px;
+    height: 40px;
 }
