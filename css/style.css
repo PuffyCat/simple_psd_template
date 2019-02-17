@@ -531,9 +531,7 @@ textarea[placeholder]::-moz-placeholder {
 
 /*Футер.Блок "Contacts".Контакты и соцсети*/
 
-.main-footer_contacts {
-   
-}
+.main-footer_contacts {}
 
 .main-footer_contacts ul {
     list-style-type: none;
@@ -615,4 +613,24 @@ textarea[placeholder]::-moz-placeholder {
     text-align: center;
     width: 40px;
     height: 40px;
+}
+
+
+/* Футер. Блок "copyright"*/
+
+.copyright {
+    width: 100%;
+    background-color: #f5f5f5;
+}
+
+.copyright span {
+    display: block;
+    color: #445162;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0.3px;
+    line-height: 24px;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
 }
