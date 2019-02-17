@@ -409,10 +409,12 @@ details[open] summary:before {
     line-height: 40px;
     outline: none;
 }
+
 .price-item_link:hover {
     background-color: #989898;
     color: #ffffff;
 }
+
 .price-item_link:active {
     background-color: #ffffff;
     color: #445162;
