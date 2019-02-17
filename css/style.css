@@ -148,6 +148,7 @@ body {
     outline: none;
     text-align: left;
     margin-bottom: 35px;
+    display: block;
 }
 
 .pluses summary::-webkit-details-marker {
